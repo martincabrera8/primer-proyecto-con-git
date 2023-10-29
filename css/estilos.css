@@ -2,3 +2,20 @@ body {
 
     background-color: antiquewhite;
 }
+
+#titulo {
+
+           background-color: white;
+}
+
+.hashtag {
+
+    background-color: aqua;
+}
+
+#info1 {
+
+        background-color: rgb(42, 65, 165);
+        color: aliceblue;
+
+}
