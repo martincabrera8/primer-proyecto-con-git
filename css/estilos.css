@@ -1,11 +1,13 @@
 body {
 
     background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #titulo {
 
            background-color: white;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hashtag {
