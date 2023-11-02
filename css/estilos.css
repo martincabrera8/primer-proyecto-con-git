@@ -1,23 +1,118 @@
+.paginas {
+
+    background-image: url(../img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-bottom: 5px solid white;
+    min-height: 100%;
+    min-width: 100%;
+    
+
+    
+
+}
+
+.redes {
+
+    font-size: 25px;
+}
+
+.titulo {
+
+           
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 20px;
+           font-weight: 10px;
+           text-align: center;
+           color: white;
+           padding-left: 20px;
+           padding-right: 40px;
+           background-image:url("../img/iphone15.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           object-fit: cover;
+           min-width: 700px;
+           min-height: 700px;
+
+}
+
+#boton-compra {
+
+    border: 1px solid white;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+#logo-central {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20;
+
+}
+
+.design {
+         border-top: 5px solid white;
+         font-size: 35px;
+         color: white;
+         text-align: center;
+         background-image: url("../img/fondo1.avif");
+         object-fit: cover;
+         min-width: 700px;
+         min-height: 700px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding-left: 20 px;
+         padding-right: 20 px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 body {
 
-    background-color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
 }
 
-#titulo {
+.quality {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 35px;
+           text-align: center;
+           border-top: 5px solid white;
+           color: white;
+           background-image: url("../img/fondo2.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           min-width: 900px;
+           min-height: 900px;
 
-           background-color: white;
-           font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.hashtag {
-
-    background-color: aqua;
+.enlaces{
+   
+    list-style: none;
 }
 
-#info1 {
+.redes{
+   
+    list-style: none;
+    
+}
 
-        background-color: rgb(42, 65, 165);
-        color: aliceblue;
+#ig{
+    float: left;
+    margin-left: 5px;
+}
 
+#x{
+    float: left;
+    margin-left: 5px;
+}
+
+#youtube{
+    float: left;
+    margin-left: 5px;
 }
