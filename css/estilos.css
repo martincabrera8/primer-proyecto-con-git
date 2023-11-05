@@ -1,83 +1,135 @@
-.paginas {
-
+nav {
+    
+    
     background-image: url(../img/fondo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    border-bottom: 5px solid white;
-    min-height: 100%;
-    min-width: 100%;
+    min-width:  100%;
+    height: auto;
+    display: inline-block;
+    height: auto;
+    margin: auto;
+    padding: auto;
     
+}
+nav .enlaces{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    bottom: 30px;
+    text-decoration: none;
 
-    
-
+ 
 }
 
-.redes {
+a {
+    text-decoration:none;
+}
+nav .enlaces li:hover{
 
-    font-size: 25px;
+    color: blueviolet;
+    border: 3px solid white;
+    background-color: gainsboro;
+    text-decoration:none;
+}
+nav .redes {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 30px;
+    gap: 10px;
 }
 
-.titulo {
+#titulo {
 
-           
+           padding-top: 50px;
            font-family:Verdana, Geneva, Tahoma, sans-serif;
            font-size: 20px;
            font-weight: 10px;
-           text-align: center;
            color: white;
-           padding-left: 20px;
-           padding-right: 40px;
            background-image:url("../img/iphone15.jpg");
            background-repeat: no-repeat;
            background-size: cover;
-           object-fit: cover;
-           min-width: 700px;
-           min-height: 700px;
+           min-height: 800px;
+           min-width: 100%;
+           background-position: center;
+           display: inline-block;
+           text-align: center;
+           
+          
+          
 
 }
 
-#boton-compra {
+#titulo h3 {
+    padding: auto;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: center;
+    border: 2px solid white;
+    color: black;
+    position: relative;
+    top: 500px;
+    left:50px;
+    font-size: 40px;
+    
 
-    border: 1px solid white;
-    width: 10%;
-    height: 10%;
+    
+}
+
+#titulo h3:hover {
+
+    background-color:gainsboro;
 }
 
 
 
-#logo-central {
+nav h2 {
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 20;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+  
+
+    
 
 }
 
-.design {
+#design {
+         padding-top: 15px;
          border-top: 5px solid white;
          font-size: 35px;
          color: white;
          text-align: center;
          background-image: url("../img/fondo1.avif");
-         object-fit: cover;
-         min-width: 700px;
-         min-height: 700px;
          background-repeat: no-repeat;
          background-size: cover;
-         padding-left: 20 px;
-         padding-right: 20 px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         min-width: 900px;
+         min-height: 900px;
+         display: block;
+         padding: auto;
+         border: 10px;
+         margin: 20px;
 
 }
 
 body {
-
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
     background-color:black;
 }
 
-.quality {
+#quality {
            font-family: Verdana, Geneva, Tahoma, sans-serif;
            font-size: 35px;
            text-align: center;
@@ -88,31 +140,61 @@ body {
            background-size: cover;
            min-width: 900px;
            min-height: 900px;
+           display: inline-block;
 
 }
 
 .enlaces{
-   
+    
     list-style: none;
+    min-width: 0%;
+
 }
 
-.redes{
-   
-    list-style: none;
-    
-}
+
 
 #ig{
-    float: left;
+ 
     margin-left: 5px;
 }
 
 #x{
-    float: left;
+    
     margin-left: 5px;
 }
 
 #youtube{
-    float: left;
+    
     margin-left: 5px;
+}
+
+:any-link {
+
+    color: white;
+}
+:-moz-any-link{
+
+    color: white;
+}
+
+:-webkit-any-link {
+
+    color: white;
+}
+
+i:hover {
+
+    color: blueviolet;
+    background-color: gainsboro;
+
+
+}
+
+#titulo h1, p {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
